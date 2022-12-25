@@ -1,0 +1,62 @@
+<html>
+
+<body>
+
+    <form name="main" id="resume-form" method="post" enctype="multipart/form-data" data-netlify="true">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="cover-letter">Cover Letter:</label><br>
+        <textarea id="cover-letter" name="cover-letter"></textarea><br>
+        <label for="resume">Resume:</label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        #
+        resume - form {
+            width: 500 px;
+            margin: 0 auto;
+            text - align: left;
+        }
+
+        #
+        resume - form label {
+            font - weight: bold;
+            display: block;
+            margin - bottom: 5 px;
+        }
+
+        #
+        resume - form input[type = "text"], #resume - form input[type = "email"], #resume - form textarea {
+            width: 100 % ;
+            height: 35 px;
+            border: 1 px solid# ccc;
+            border - radius: 3 px;
+            margin - bottom: 20 px;
+            padding: 0 10 px;
+            box - sizing: border - box;
+        }
+
+        #
+        resume - form textarea {
+            height: 150 px;
+        }
+
+        #
+        resume - form input[type = "submit"] {
+            width: 100 % ;
+            background - color: #333;
+            color: # fff;
+            border: none;
+            border - radius: 3 px;
+            height: 35 px;
+            cursor: pointer;
+        }
+    </script>
+
+</body>
+
+</html>
